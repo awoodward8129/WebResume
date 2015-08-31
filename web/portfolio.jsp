@@ -1,6 +1,6 @@
 <%-- 
-    Document   : index
-    Created on : Aug 31, 2015, 2:04:01 PM
+    Document   : portfolio
+    Created on : Aug 31, 2015, 3:20:15 PM
     Author     : Alex
 --%>
 
@@ -8,8 +8,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-     <!--  <link href="WebResumeStyle.css" rel="stylesheet" type="text/css"/> -->
-     <link href="StyleSheets/theme.css" rel="stylesheet" type="text/css"/>
+<link href="StyleSheets/theme.css" rel="stylesheet" type="text/css"/>
      <link href="StyleSheets/WebResumeStyle.css" rel="stylesheet" type="text/css"/>
      <script src="Scripts/jquery-1.11.3.min.js" type="text/javascript"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -18,10 +17,10 @@
     <body >
         <div class="divCenter row">
             <ul class="nav nav-pills " role="tablist">
-            <li role="presentation">
+            <li role="presentation" class="active">
                <a href="portfolio.jsp">Portfolio</a>
             </li>    
-            <li role="presentation" class="active">
+            <li role="presentation" >
                <a href="index.jsp"  >Alex Woodward</a>
             </li>
             <li role="presentation">
@@ -29,11 +28,7 @@
           
             </ul>
         </div>
-        
-        <div class="divCenter" >
-            <img src="Images/Me.jpg" class="img-responsive img-rounded" />
-        </div>
-      <div class="divCenter"> 
+        <div class="divCenter"> 
             <p class="noBullets">
                 <a href="mailto:awoodward@my.wctc.edu">Alex Woodward</a> <br>
            259 Lakeridge Dr, Oconomowoc WI, 53066<br>
